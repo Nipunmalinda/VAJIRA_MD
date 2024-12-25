@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? 'Put your session id here' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=uAEVzbrS#SJ3Y4Zk39mmWVQ-Vv-Gqif9HW3EvsJS8fPehID1tOhk' : process.env.SESSION_ID,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '' : process.env.OWNER_NUMBER,
 N_JID: process.env.N_JID=== undefined ? '‌': process.env.N_JID,    
 PREFIX: process.env.PREFIX || '.' ,
@@ -15,5 +15,5 @@ POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratec
 MAX_SIZE: 500,
 PAIR: 'https://vajirasessionid-78fa4ff8a63a.herokuapp.com/code?number=',       
 ALIVE:  process.env.ALIVE  || '> VAJIRA MD'  ,    
-DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO        
+DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '94726645160' : process.env.DELETEMSGSENDTO        
 };
